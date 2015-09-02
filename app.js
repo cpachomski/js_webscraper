@@ -1,4 +1,5 @@
 var Xray = require("x-ray");
+var fs = require("fs");
 
 var xray = new Xray();
 
@@ -10,6 +11,14 @@ xray('http://en.wikipedia.org/wiki/Pluto', 'img',
   width: '@width',
   height: '@height'
 
-  }])
-    .write('scrape_output.json');
+  }]
+)
+(function (err, results){
+  results = results.filter(function(image){
+    return image.width > 100;
+  });
+
+  fs.writeFile('./scrape_output.json', JSON.stringify(results, null, '\t'));
+
+})
 
