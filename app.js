@@ -2,11 +2,14 @@ var Xray = require("x-ray");
 
 var xray = new Xray();
 
-xray('http://google.com', 'a',
+xray('http://en.wikipedia.org/wiki/Pluto', 'img',
  [{
-  a: '',
-  href: '@href',
-  css: '@class'
+
+  img: '',
+  src: '@src',
+  width: '@width',
+  height: '@height'
 
   }])
     .write('scrape_output.json');
+
