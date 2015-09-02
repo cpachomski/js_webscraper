@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/cpachomski/js_webscraper/issues"
   },
-  "homepage": "https://github.com/cpachomski/js_webscraper#readme"
+  "homepage": "https://github.com/cpachomski/js_webscraper#readme",
+  "dependencies": {
+    "download": "^4.2.0"
+  }
 }
