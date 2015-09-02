@@ -1,0 +1,26 @@
+{
+  "name": "js_webscraper",
+  "version": "1.0.0",
+  "description": "a web scraper ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpachomski/js_webscraper.git"
+  },
+  "keywords": [
+    "scrape",
+    "x-ray",
+    "npm",
+    "node",
+    "javascript"
+  ],
+  "author": "Chris Pachomski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpachomski/js_webscraper/issues"
+  },
+  "homepage": "https://github.com/cpachomski/js_webscraper#readme"
+}
